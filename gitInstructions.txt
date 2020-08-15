@@ -1,0 +1,9 @@
+1.
+
+
+A). Clone, Fork, git pull, git add ., git commit - m "my commit",   git push. 
+B). git pull-request (do from gui) ,  git merge , git rebase, git branch, git checkout       branch name,
+C) git branch, git reset, git reset --medium HEAD (default), git reset --hard HEAD, git reset soft, git reset HEARD~3
+
+D) git checkout commitID,  git checkout -b newbranch ,  git branch existing-branch
+E) git revert, git fetch, git pull,  GitHub Desktop, GitHub GUI Brower
