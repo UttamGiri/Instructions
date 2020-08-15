@@ -16,13 +16,24 @@ CLONE: pull a copy,
 
 FORK:  fork other people project and clone and push. You can't directly push to others project . You don't have permission
 
+GIT PULL:  git pull all data from remote
+GIT FETCH:  git pull only reference doesn't pull actual data. So advantages you can check diff
+
+EG: GIT FETCH ORIGIN MATSER. Form feature branch and 
+GIT DIFF you will see difference with out code being pulled from master
+
+GIT REBASE: 
+
+Its is  that  whole features branch comes on top of say dev branch so there is straight one line . Looks nicer clearer. Git merge who feature branch doesn't come . It is better explained with example. rebase It is rewrite history.vit takes tip p=of develop and adds feature. Nice clear linear . It is available at the place of merge asks you when pull request approve than you have the option to merge or rebase
+
+
+GIT REVERT:   Committed cannot be backed by reset soo revert is used it revert last committed  .  It has  **8
+
 GITHUB PULL REQUEST: do it from Github GUI nicer. Generally you do so reviewer can review . They get red notification can can find out diff and approve. They can merge as well
 
 GIT MERGE: git merge ay feature to dev branch. Push changes of feature branch to dev
 
-GIT REBASE: git rehabs done before .
 
-**
 
 GIT BRANCH:  displays all branch.
 
@@ -45,10 +56,9 @@ GIT RESET --SOFT HEAD
 
 GIT RESET  HEAD~3
 
+ git push --set-upstream origin feature/GitInstrution: for first push after nrbranch created
 
 
-
-GIT REVERT:   Committed cannot be backed by reset soo revert is used it revert last committed  .  It has  **8
 
 
 
