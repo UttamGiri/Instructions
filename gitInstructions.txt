@@ -27,7 +27,15 @@ GIT REBASE:
 Its is  that  whole features branch comes on top of say dev branch so there is straight one line . Looks nicer clearer. Git merge who feature branch doesn't come . It is better explained with example. rebase It is rewrite history.vit takes tip p=of develop and adds feature. Nice clear linear . It is available at the place of merge asks you when pull request approve than you have the option to merge or rebase
 
 
-GIT REVERT:   Committed cannot be backed by reset soo revert is used it revert last committed  .  It has  **8
+GIT REVERT:   Committed cannot be backed by reset soo revert is used it revert last committed  .  
+
+Git log --oneline to display all commit.
+
+Choose latest 
+Git revert commit id
+
+Git push  you will see changes 
+It will automatically replace with previous version creates a new commit.
 
 GITHUB PULL REQUEST: do it from Github GUI nicer. Generally you do so reviewer can review . They get red notification can can find out diff and approve. They can merge as well
 
@@ -45,16 +53,23 @@ GIT LOG --ONELINE:  displays all commit reverts in one line.
 
 GIT CHECKOUT COMMIT-CODE: In branch restore local with c=to certain commit. Again to get all commit    GIT CHECKOUT BEANCH-NAME
 
-GIT RESET: When we unstage, stage and commit . To reset back is called reset 
+GIT RESET: 
 
-GIT RESET --HARD HEAD : it reset to previous head committed . All new written will be wiped out if hasn't been pushed
-**
+ALL THESE WORKS BEFORE PUSH
 
-GIT RESET --MEDIUM HEAD:  
+When we unstage, stage and commit . To reset back is called reset . Git reset we can do by iDE ECLIPSE GITHUB DESKTOP AS WELL
 
-GIT RESET --SOFT HEAD
 
-GIT RESET  HEAD~3
+git reset --soft head
+
+git reset --mixed head (Dfault). These both do same thing, Stage to unstage .
+git reset head :   Stage to unstage 
+
+GIT RESET --HARD HEAD : it replaces whole code to lates remote head . so all written will be wiped please use it carefully
+
+
+
+One add two add three add .  It reset whole 3.  Means there time unsatege. Back
 
  git push --set-upstream origin feature/GitInstrution: for first push after nrbranch created
 
