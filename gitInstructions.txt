@@ -47,6 +47,7 @@ GIT RESET  HEAD~3
 
 
 
+EDITED directly to master
 
 GIT REVERT:   Committed cannot be backed by reset soo revert is used it revert last committed  .  It has  **8
 
