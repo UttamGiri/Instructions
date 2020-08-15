@@ -154,6 +154,7 @@ GIT RESET --HARD HEAD : it replaces whole code to lates remote head . so all wri
 One add two add three add .  It reset whole 3.  Means there time unsatege. Back
 
  git push --set-upstream origin feature/GitInstrution: for first push after nrbranch created
+ .
 
 
 
