@@ -53,12 +53,14 @@ Git log --oneline:  displays all commit reverts in one line.
 
 GIT CHECKOUT COMMIT-CODE: In branch restore local with c=to certain commit. Again to get all commit    GIT CHECKOUT BEANCH-NAME
 
-<<<<<<< HEAD
 GIT RESET: 
 
 ALL THESE WORKS BEFORE PUSH
 
 When we unstage, stage and commit . To reset back is called reset . Git reset we can do by iDE ECLIPSE GITHUB DESKTOP AS WELL
+=======
+GIT RESET: When we unstage, stage and commit . To reset back is called reset . Git reset we can do by iDE ECLIPSE GITHUB DESKTOP AS WELL
+
 
 
 git reset --soft head
@@ -67,7 +69,7 @@ git reset --mixed head (Dfault). These both do same thing, Stage to unstage .
 git reset head :   Stage to unstage 
 =======
 GIT RESET: When we unstage, stage and commit . To reset back is called reset . Git reset we can do by iDE ECLIPSE GITHUB DESKTOP AS WELL
->>>>>>> 3e1bff797a5949a0460aa986ecae3067be619eb0
+
 
 GIT RESET --HARD HEAD : it replaces whole code to lates remote head . so all written will be wiped please use it carefully
 
