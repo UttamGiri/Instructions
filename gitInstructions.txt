@@ -45,11 +45,11 @@ GIT MERGE: git merge ay feature to dev branch. Push changes of feature branch to
 
 GIT BRANCH:  displays all branch.
 
-GIT CHECKOUT BEANCH-NAME:  it checkouts branch eg dev branch
+GIT CHECKOUT BEANCH-NAME:  it changes branch name
 GIT BRANCH NEWBRANCH :
-git chekout -b anotherbranch:  up both creates new branch
+git checkout -b anotherbranch:  up both creates new branch
 
-GIT LOG --ONELINE:  displays all commit reverts in one line.
+Git log --oneline:  displays all commit reverts in one line.
 
 GIT CHECKOUT COMMIT-CODE: In branch restore local with c=to certain commit. Again to get all commit    GIT CHECKOUT BEANCH-NAME
 
